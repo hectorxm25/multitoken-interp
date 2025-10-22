@@ -1,0 +1,50 @@
+# API keys and secrets
+*.env
+.env
+
+# Checkpoints
+checkpoint.json
+*.checkpoint
+
+# Generated datasets
+*.jsonl
+dataset/
+
+# Batch API files
+requests/
+batch_outputs/
+batch_metadata.json
+
+# HuggingFace cache
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
